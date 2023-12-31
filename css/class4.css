@@ -1,0 +1,556 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:  purple;
+    align-items: center;
+    }
+
+header div{}
+header div img {}
+header nav {
+}
+header nav ul {
+    display: flex;    
+    
+    padding: 20px 20px;
+}
+
+header nav ul li {padding: 0px 0px 0px 20px;list-style: none;}
+header nav ul li a {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+}
+section{
+    background: purple;
+    text-align: center;
+    padding: 90px;
+}
+section div h1 {margin: 0px 0px 0px 0px;font-size: xxx-large;color: white;}
+section div h3 {
+    padding: 0px;
+    margin: 4px;
+    color: white;
+}
+.content{ padding: 60px 0 0 0;
+background-color: white;}
+.st{    width: 1300px;
+    margin: auto;}
+.parent{display: flex;
+    justify-content: space-between !important;
+}
+.child{width: 50%;
+    padding: 50px;}
+.imi{max-width: 100%;display: block;}
+.child h2 {
+    font-size: 40px;
+    padding: 25px 0;
+    text-align: left;
+    }
+    .child p {font-size: 20px;text-align: left;}
+
+    .footer {
+        padding: 50px 0;
+        background-color: #7f56f51f;
+    }
+    
+    .parentu {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lll {
+        width: 25%;
+        padding: 0 25px;
+    }
+    
+    .lll a img {}
+    
+    .col p {
+        font-size: 20px;
+        text-align: justify;
+        margin-top: 20px;
+        padding: 0 40px 0 0;
+    }
+    
+    .lll ul {}
+    
+    .lll ul h2 {}
+    
+    .lll ul li {
+        list-style: none;
+    }
+    
+    .lll ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 20px 0;
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .fimg{
+    width: 1900px;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    
+
+header nav ul li a {
+    font-size: 15px;
+}
+section div h1 {
+    font-size: xx-large;
+}
+section div h3 {
+    margin: 1px;
+    font-size: medium;
+
+}
+header nav ul {
+    padding: 0px 0px 0px 98px;
+}
+
+section {
+    padding: 70px;
+}
+
+.st {
+    display: block;
+    max-width: 190%;
+}
+
+.content {
+    padding: 0px;
+
+}
+.parenttwo {
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    
+}
+
+.parent{ 
+    display: block;
+    
+
+}
+
+.child {
+    padding: 30px;
+    text-align: left;
+}
+
+
+.child h2 {    padding: 5px 0;
+    font-size: 30px;
+}
+
+.imi {
+    height: 50px;
+}
+img {
+    max-width: 100%;
+}
+.footer {
+    padding: 0px ;
+
+    
+}
+
+.parentu {
+    display: block;
+}
+
+.lll {
+    
+    padding: 0 25px;
+}
+
+
+
+
+.lll ul { padding: 0px;
+}
+
+.lll p {
+    width: 400px;
+}
+
+.lll ul li {
+    list-style: none;
+}
+.lll ul li a {
+    padding: 4px 0;
+   
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fimg{
+width: 1900px;
+max-width: 100%;
+
+}
+
+
+
+}
+
+
+/* khbgcksbvf */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+ 
+  
+    header {
+        padding: 20px;
+    }
+
+header nav ul li a {
+    font-size: 20px;
+}
+section div h1 {
+    font-size: xxx-large;
+}
+section div h3 {
+    margin: 1px;
+    font-size: x-large;
+
+}
+header nav ul {
+    padding: 0px 0px 0px 98px;
+}
+
+section {
+    padding: 70px;
+}
+
+.st {
+    display: block;
+    max-width: 190%;
+}
+
+.content {
+    padding: 0px;
+
+}
+.parenttwo {
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    
+}
+
+.parent{ 
+    display: block;
+    
+
+}
+
+.child {
+    padding: 30px;
+    text-align: left;
+}
+
+
+.child h2 {    padding: 5px 0;
+    font-size: 30px;
+}
+
+.imi {
+    height: 50px;
+}
+img {
+    max-width: 100%;
+}
+.footer {
+    padding: 0px ;
+
+    
+}
+
+.parentu {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.lll {
+    
+    padding:  25px;
+}
+
+
+
+
+.lll ul { padding: 0px;
+}
+
+.lll p {
+    width: 150px;
+}
+
+.lll ul li {
+    list-style: none;
+}
+.lll ul li a {
+    padding: 4px 0;
+   
+    font-size: 18px;
+    font-weight: 500;
+}
+.lll a img {
+
+
+}
+.fimg{
+width: 1900px;
+max-width: 100%;
+
+}
+}
+
+/* shr */
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    header {
+        padding: 40px;
+    }
+header div img {
+    width: 200px;
+
+}
+header nav ul li a {
+    font-size: 20px;
+}
+section div h1 {
+    font-size: xxx-large;
+}
+section div h3 {
+    margin: 1px;
+    font-size: x-large;
+
+}
+header nav ul {
+    padding: 0px 0px 0px 98px;
+}
+
+section {
+    padding: 150px;
+}
+
+.st {
+    display: block;
+    max-width: 190%;
+}
+
+.content {
+    padding: 0px;
+
+}
+.parenttwo {
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.parent{ 
+    display: flex;
+    
+
+}
+
+.child {
+    padding: 30px;
+    text-align: left;
+}
+
+
+.child h2 {    padding: 5px 0;
+    font-size: 30px;
+}
+
+.imi {
+    height: 50px;
+}
+img {
+    max-width: 100%;
+}
+.footer {
+    padding: 0px ;
+
+    
+}
+
+.parentu {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.lll {
+    
+    padding:  25px;
+}
+
+
+
+
+.lll ul { padding: 0px;
+}
+
+.lll p {
+    width: 150px;
+}
+
+.lll ul li {
+    list-style: none;
+}
+.lll ul li a {
+    padding: 4px 0;
+   
+    font-size: 18px;
+    font-weight: 500;
+}
+.lll a img {
+
+    
+}
+.fimg{
+width: 1900px;
+max-width: 100%;
+
+}
+}
+
+/* khsrfi */
+
+@media only screen and (min-width: 1280px) and (max-width: 2000px) {
+    header {
+        padding: 40px;
+    }
+header div img {
+    width: 300px;
+
+}
+header nav ul li a {
+    font-size: 30px;
+}
+section div h1 {
+    font-size: 90px;
+}
+section div h3 {
+    margin: 1px;
+    font-size: x-large;
+
+}
+header nav ul {
+    padding: 0px 0px 0px 98px;
+}
+
+section {
+    padding: 150px;
+}
+
+.st {
+    display: block;
+    max-width: 190%;
+}
+
+.content {
+    padding: 90px;
+
+}
+.parenttwo {
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.parent{ 
+    display: flex;
+    
+
+}
+
+.child {
+    padding: 30px;
+    text-align: left;
+}
+
+
+.child h2 {    padding: 5px 0;
+    font-size: 50px;
+}
+
+.imi {
+    height: 50px;
+    width: 30px;
+}
+img {
+    max-width: 100%;
+    width: 900px;
+}
+.footer {
+    padding: 0px ;
+
+    
+}
+
+.parentu {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.lll {
+    
+    padding:  25px;
+}
+
+
+
+
+.lll ul { padding: 0px;
+}
+
+.lll p {
+    width: 150px;
+}
+
+.lll ul li {
+    list-style: none;
+}
+.lll ul li a {
+    padding: 4px 0;
+   
+    font-size: 18px;
+    font-weight: 500;
+}
+.lll a img {
+
+    width: 300px;
+}
+.fimg{
+width: 1900px;
+max-width: 100%;
+
+}
+}
+
+
